@@ -1,0 +1,404 @@
+<DrumBranchPreset>
+	<Name Value="" />
+	<IsSoloed Value="false" />
+	<DevicePresets>
+		<AbletonDevicePreset>
+			<OverwriteProtectionNumber Value="2306" />
+			<Device>
+				<MultiSampler>
+					<LomId Value="0" />
+					<LomIdView Value="0" />
+					<IsExpanded Value="true" />
+					<On>
+						<LomId Value="0" />
+						<ArrangerAutomation>
+							<Events>
+								<BoolEvent Time="-63072000" Value="true" />
+							</Events>
+						</ArrangerAutomation>
+						<Manual Value="true" />
+						<AutomationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</AutomationTarget>
+						<MidiCCOnOffThresholds>
+							<Min Value="64" />
+							<Max Value="127" />
+						</MidiCCOnOffThresholds>
+					</On>
+					<ParametersListWrapper LomId="0" />
+					<LastSelectedTimeableIndex Value="0" />
+					<LastSelectedClipEnvelopeIndex Value="0" />
+					<LastPresetRef>
+						<Value>
+							<AbletonDefaultPresetRef>
+								<FileRef>
+									<HasRelativePath Value="false" />
+									<RelativePathType Value="0" />
+									<RelativePath />
+									<Name Value="" />
+									<Type Value="0" />
+									<Data />
+									<RefersToFolder Value="false" />
+									<SearchHint>
+										<PathHint />
+										<FileSize Value="0" />
+										<Crc Value="0" />
+										<MaxCrcSize Value="0" />
+										<HasExtendedInfo Value="false" />
+									</SearchHint>
+									<LivePackName Value="" />
+									<LivePackId Value="" />
+								</FileRef>
+								<DeviceId Name="MultiSampler" />
+							</AbletonDefaultPresetRef>
+						</Value>
+					</LastPresetRef>
+					<LockedScripts />
+					<IsFolded Value="false" />
+					<ShouldShowPresetName Value="true" />
+					<UserName Value="" />
+					<Annotation Value="" />
+					<SourceContext>
+						<Value />
+					</SourceContext>
+					<OverwriteProtectionNumber Value="2306" />
+					<Player>
+						<MultiSampleMap>
+							<SampleParts>
+								<MultiSamplePart HasImportedSlicePoints="false" NeedsAnalysisData="false">
+									<LomId Value="0" />
+									<Name Value="{name}" />
+									<Selection Value="true" />
+									<IsActive Value="true" />
+									<Solo Value="false" />
+									<KeyRange>
+										<Min Value="0" />
+										<Max Value="127" />
+										<CrossfadeMin Value="0" />
+										<CrossfadeMax Value="127" />
+									</KeyRange>
+									<VelocityRange>
+										<Min Value="1" />
+										<Max Value="127" />
+										<CrossfadeMin Value="1" />
+										<CrossfadeMax Value="127" />
+									</VelocityRange>
+									<SelectorRange>
+										<Min Value="0" />
+										<Max Value="127" />
+										<CrossfadeMin Value="0" />
+										<CrossfadeMax Value="127" />
+									</SelectorRange>
+									<RootKey Value="60" />
+									<Detune Value="0" />
+									<TuneScale Value="100" />
+									<Panorama Value="0" />
+									<Volume Value="1" />
+									<Link Value="false" />
+									<SampleStart Value="{samplestart}" />
+									<SampleEnd Value="{sampleend}" />
+									<SustainLoop>
+										<Start Value="0" />
+										<End Value="11756" />
+										<Mode Value="0" />
+										<Crossfade Value="0" />
+										<Detune Value="0" />
+									</SustainLoop>
+									<ReleaseLoop>
+										<Start Value="0" />
+										<End Value="11756" />
+										<Mode Value="3" />
+										<Crossfade Value="0" />
+										<Detune Value="0" />
+									</ReleaseLoop>
+									<SampleRef>
+										<FileRef>
+											<HasRelativePath Value="true" />
+											<RelativePathType Value="6" />
+											<RelativePath>
+												<RelativePathElement Dir="Samples" />
+												<RelativePathElement Dir="Imported" />
+											</RelativePath>
+											<Name Value="{audiofilename}" />
+											<Type Value="2" />
+											<RefersToFolder Value="false" />
+											<LivePackName Value="" />
+											<LivePackId Value="" />
+										</FileRef>
+										<LastModDate Value="1570225052" />
+										<SourceContext />
+										<SampleUsageHint Value="0" />
+										<DefaultDuration Value="121717" />
+										<DefaultSampleRate Value="44100" />
+									</SampleRef>
+									<SlicingThreshold Value="100" />
+									<SlicingBeatGrid Value="4" />
+									<SlicingRegions Value="8" />
+									<SlicingStyle Value="0" />
+									<SampleWarpProperties>
+										<WarpMarkers />
+										<WarpMode Value="0" />
+										<GranularityTones Value="30" />
+										<GranularityTexture Value="65" />
+										<FluctuationTexture Value="25" />
+										<ComplexProFormants Value="100" />
+										<ComplexProEnvelope Value="128" />
+										<TransientResolution Value="6" />
+										<TransientLoopMode Value="2" />
+										<TransientEnvelope Value="100" />
+										<IsWarped Value="false" />
+										<Onsets>
+											<UserOnsets />
+											<HasUserOnsets Value="false" />
+										</Onsets>
+										<TimeSignature>
+											<TimeSignatures>
+												<RemoteableTimeSignature>
+													<Numerator Value="4" />
+													<Denominator Value="4" />
+													<Time Value="0" />
+												</RemoteableTimeSignature>
+											</TimeSignatures>
+										</TimeSignature>
+										<BeatGrid>
+											<FixedNumerator Value="1" />
+											<FixedDenominator Value="16" />
+											<GridIntervalPixel Value="20" />
+											<Ntoles Value="2" />
+											<SnapToGrid Value="true" />
+											<Fixed Value="false" />
+										</BeatGrid>
+									</SampleWarpProperties>
+									<SlicePoints />
+									<ManualSlicePoints />
+									<BeatSlicePoints />
+									<RegionSlicePoints />
+									<UseDynamicBeatSlices Value="true" />
+									<UseDynamicRegionSlices Value="true" />
+								</MultiSamplePart>
+							</SampleParts>
+							<LoadInRam Value="false" />
+							<LayerCrossfade Value="0" />
+							<SourceContext />
+						</MultiSampleMap>
+						<InterpolationMode Value="1" />
+						<UseConstPowCrossfade Value="true" />
+					</Player>
+					<ViewSettings>
+						<SelectedPage Value="0" />
+						<ZoneEditorVisible Value="false" />
+						<Seconds Value="false" />
+						<SelectedSampleChannel Value="0" />
+						<VerticalSampleZoom Value="1" />
+						<IsAutoSelectEnabled Value="false" />
+						<SimplerBreakoutVisible Value="false" />
+					</ViewSettings>
+					<SimplerSlicing>
+						<PlaybackMode Value="0" />
+					</SimplerSlicing>
+				</MultiSampler>
+			</Device>
+			<PresetRef>
+				<AbletonDefaultPresetRef>
+					<FileRef>
+						<HasRelativePath Value="false" />
+						<RelativePathType Value="0" />
+						<RelativePath />
+						<Name Value="" />
+						<Type Value="0" />
+						<Data />
+						<RefersToFolder Value="false" />
+						<SearchHint>
+							<PathHint />
+							<FileSize Value="0" />
+							<Crc Value="0" />
+							<MaxCrcSize Value="0" />
+							<HasExtendedInfo Value="false" />
+						</SearchHint>
+						<LivePackName Value="" />
+						<LivePackId Value="" />
+					</FileRef>
+					<DeviceId Name="MultiSampler" />
+				</AbletonDefaultPresetRef>
+			</PresetRef>
+		</AbletonDevicePreset>
+	</DevicePresets>
+	<MixerPreset>
+		<AbletonDevicePreset>
+			<OverwriteProtectionNumber Value="2306" />
+			<Device>
+				<AudioBranchMixerDevice>
+					<LomId Value="0" />
+					<LomIdView Value="0" />
+					<IsExpanded Value="true" />
+					<On>
+						<LomId Value="0" />
+						<ArrangerAutomation>
+							<Events>
+								<BoolEvent Time="-63072000" Value="true" />
+							</Events>
+						</ArrangerAutomation>
+						<Manual Value="true" />
+						<AutomationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</AutomationTarget>
+						<MidiCCOnOffThresholds>
+							<Min Value="64" />
+							<Max Value="127" />
+						</MidiCCOnOffThresholds>
+					</On>
+					<ParametersListWrapper LomId="0" />
+					<LastSelectedTimeableIndex Value="0" />
+					<LastSelectedClipEnvelopeIndex Value="0" />
+					<LastPresetRef>
+						<Value>
+							<AbletonDefaultPresetRef>
+								<FileRef>
+									<HasRelativePath Value="false" />
+									<RelativePathType Value="0" />
+									<RelativePath />
+									<Name Value="" />
+									<Type Value="0" />
+									<Data />
+									<RefersToFolder Value="false" />
+									<SearchHint>
+										<PathHint />
+										<FileSize Value="0" />
+										<Crc Value="0" />
+										<MaxCrcSize Value="0" />
+										<HasExtendedInfo Value="false" />
+									</SearchHint>
+									<LivePackName Value="" />
+									<LivePackId Value="" />
+								</FileRef>
+								<DeviceId Name="AudioBranchMixerDevice" />
+							</AbletonDefaultPresetRef>
+						</Value>
+					</LastPresetRef>
+					<LockedScripts />
+					<IsFolded Value="false" />
+					<ShouldShowPresetName Value="false" />
+					<UserName Value="" />
+					<Annotation Value="" />
+					<SourceContext>
+						<Value />
+					</SourceContext>
+					<OverwriteProtectionNumber Value="2306" />
+					<Speaker>
+						<LomId Value="0" />
+						<ArrangerAutomation>
+							<Events>
+								<BoolEvent Time="-63072000" Value="true" />
+							</Events>
+						</ArrangerAutomation>
+						<Manual Value="true" />
+						<AutomationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</AutomationTarget>
+						<MidiCCOnOffThresholds>
+							<Min Value="64" />
+							<Max Value="127" />
+						</MidiCCOnOffThresholds>
+					</Speaker>
+					<Volume>
+						<LomId Value="0" />
+						<ArrangerAutomation>
+							<Events>
+								<FloatEvent Time="-63072000" Value="1" />
+							</Events>
+						</ArrangerAutomation>
+						<Manual Value="1" />
+						<MidiControllerRange>
+							<Min Value="0.0003162277571" />
+							<Max Value="1.99526238" />
+						</MidiControllerRange>
+						<AutomationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</AutomationTarget>
+						<ModulationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</ModulationTarget>
+						<ModulationAutomation>
+							<Events />
+						</ModulationAutomation>
+					</Volume>
+					<Panorama>
+						<LomId Value="0" />
+						<ArrangerAutomation>
+							<Events>
+								<FloatEvent Time="-63072000" Value="0" />
+							</Events>
+						</ArrangerAutomation>
+						<Manual Value="0" />
+						<MidiControllerRange>
+							<Min Value="-1" />
+							<Max Value="1" />
+						</MidiControllerRange>
+						<AutomationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</AutomationTarget>
+						<ModulationTarget Id="0">
+							<LockEnvelope Value="0" />
+						</ModulationTarget>
+						<ModulationAutomation>
+							<Events />
+						</ModulationAutomation>
+					</Panorama>
+					<SendInfos />
+					<RoutingHelper>
+						<Routable>
+							<Target Value="AudioOut/None" />
+							<UpperDisplayString Value="No Output" />
+							<LowerDisplayString Value="" />
+						</Routable>
+						<TargetEnum Value="0" />
+					</RoutingHelper>
+					<SendsListWrapper LomId="0" />
+				</AudioBranchMixerDevice>
+			</Device>
+			<PresetRef>
+				<AbletonDefaultPresetRef>
+					<FileRef>
+						<HasRelativePath Value="false" />
+						<RelativePathType Value="0" />
+						<RelativePath />
+						<Name Value="" />
+						<Type Value="0" />
+						<Data />
+						<RefersToFolder Value="false" />
+						<SearchHint>
+							<PathHint />
+							<FileSize Value="0" />
+							<Crc Value="0" />
+							<MaxCrcSize Value="0" />
+							<HasExtendedInfo Value="false" />
+						</SearchHint>
+						<LivePackName Value="" />
+						<LivePackId Value="" />
+					</FileRef>
+					<DeviceId Name="AudioBranchMixerDevice" />
+				</AbletonDefaultPresetRef>
+			</PresetRef>
+		</AbletonDevicePreset>
+	</MixerPreset>
+	<BranchSelectorRange>
+		<Min Value="0" />
+		<Max Value="0" />
+		<CrossfadeMin Value="0" />
+		<CrossfadeMax Value="0" />
+	</BranchSelectorRange>
+	<SessionViewBranchWidth Value="55" />
+	<ColorIndex Value="160" />
+	<AutoColored Value="true" />
+	<SourceContext>
+		<BranchSourceContext>
+			<BrowserContentPath Value="query:Synths#Sampler" />
+			<BranchDeviceId Value="device:ableton:instr:MultiSampler?n=Sampler" />
+		</BranchSourceContext>
+	</SourceContext>
+	<ZoneSettings>
+		<ReceivingNote Value="{note}" />
+		<SendingNote Value="60" />
+		<ChokeGroup Value="0" />
+	</ZoneSettings>
+</DrumBranchPreset>
